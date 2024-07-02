@@ -1,0 +1,49 @@
+body{
+    background-color: grey;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    width: 500px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 0 4px 8px 0 #00000056;
+    margin: auto;
+}
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    color: rgba(27, 18, 18, 0.795);
+    font-size: 24px;
+}
+
+button{
+    background-color: black;
+    border: none;
+    padding: 8px;
+    font-size: 18px;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+button a{
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a{
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+}
